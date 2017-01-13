@@ -1,0 +1,3 @@
+#!/bin/sh
+
+bin/rake db:migrate RAILS_ENV=production && bin/bundle exec unicorn -c config/unicorn.rb -E production

@@ -1,0 +1,19 @@
+# Ignore bundler config.
+.bundle
+
+log
+tmp
+
+dump.rdb
+spec/examples.txt
+
+.byebug_history
+
+*.log
+*.swp
+.DS_Store
+.directory
+.envrc
+.env
+vendor
+.direnv
